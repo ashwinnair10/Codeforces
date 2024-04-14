@@ -39,20 +39,6 @@ int main()
         b[k++]=mat[i][j];
         qsort(b,n*n,sizeof(long long int),compare);
         int flag=0;
-        // for(int i=0;i<n;i++){
-        // for(int j=0;j<n;j++){
-        //     printf("%lld ",mat[i][j]);
-        // }
-        // printf("\n");
-        // }
-        // printf("a:");
-        // for(int i=0;i<n*n;i++)
-        // printf("%lld ",a[i]);
-        // printf("\n");
-        // printf("b:");
-        // for(int i=0;i<n*n;i++)
-        // printf("%lld ",b[i]);
-        // printf("\n");
         for(int i=0;i<n*n;i++){
             if(a[i]!=b[i]){
                 flag=1;
